@@ -1,13 +1,13 @@
 # **PromptFletcher** 🚀  
 **A Python library for auto-prompt engineering and optimization for LLMs.**  
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/promptfletcher?label=Python)  
-![PyPI - License](https://img.shields.io/pypi/l/promptfletcher?label=License&color=red)  
-![Maintenance](https://img.shields.io/maintenance/yes/2025?label=Maintained)  
-![PyPI](https://img.shields.io/pypi/v/promptfletcher?label=PyPi)  
-![PyPI - Status](https://img.shields.io/pypi/status/promptfletcher?label=Status)  
-![PyPI - Downloads](https://img.shields.io/pypi/dm/promptfletcher?label=Monthly%20Downloads)  
-![Total Downloads](https://static.pepy.tech/badge/promptfletcher?label=Total%20Downloads)  
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/promptfletcher?label=Python)    
+![PyPI - License](https://img.shields.io/pypi/l/promptfletcher?label=License&color=red)    
+![Maintenance](https://img.shields.io/maintenance/yes/2025?label=Maintained)    
+![PyPI](https://img.shields.io/pypi/v/promptfletcher?label=PyPi)    
+![PyPI - Status](https://img.shields.io/pypi/status/promptfletcher?label=Status)    
+![PyPI - Downloads](https://img.shields.io/pypi/dm/promptfletcher?label=Monthly%20Downloads)    
+![Total Downloads](https://static.pepy.tech/badge/promptfletcher?label=Total%20Downloads)     
 
 ---
 
