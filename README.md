@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-# **PromptFletcher**  
-=======
-# **PromptFletcher** 🚀  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+# **PromptFletcher** 🚀
+
 **A Python library for auto-prompt engineering and optimization for LLMs.**  
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/promptfletcher?label=Python) ![PyPI - License](https://img.shields.io/pypi/l/promptfletcher?label=License&color=red) ![Maintenance](https://img.shields.io/maintenance/yes/2025?label=Maintained) ![PyPI](https://img.shields.io/pypi/v/promptfletcher?label=PyPi) ![PyPI - Status](https://img.shields.io/pypi/status/promptfletcher?label=Status) ![PyPI - Downloads](https://img.shields.io/pypi/dm/promptfletcher?label=Monthly%20Downloads) ![Total Downloads](https://static.pepy.tech/badge/promptfletcher?label=Total%20Downloads)  
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/promptfletcher?label=Python) ![PyPI - License](https://img.shields.io/pypi/l/promptfletcher?label=License&color=red) ![Maintenance](https://img.shields.io/maintenance/yes/2026?label=Maintained) ![PyPI](https://img.shields.io/pypi/v/promptfletcher?label=PyPi) ![PyPI - Status](https://img.shields.io/pypi/status/promptfletcher?label=Status) ![PyPI - Downloads](https://img.shields.io/pypi/dm/promptfletcher?label=Monthly%20Downloads) ![Total Downloads](https://static.pepy.tech/badge/promptfletcher?label=Total%20Downloads)  
 
----
-
-<<<<<<< HEAD
 **PromptFletcher** is a **lightweight** and **fast** Python library designed for:  
  **Refining & optimizing prompts** using NLTK-based NLP techniques  
  **Context-aware prompt tuning** for better responses  
@@ -20,7 +14,6 @@
 
 ## **Installation**  
 ### **From PyPI**
-=======
 ## **🚀 What is PromptFletcher?**  
 **PromptFletcher** is a **lightweight** and **powerful** Python library designed for:  
 ✅ **Refining & optimizing prompts** for LLMs  
@@ -31,8 +24,7 @@
 ---
 
 ## **🛠️ Installation**  
-### **From PyPI** (Coming Soon)
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+### **From PyPI**
 ```bash
 pip install promptfletcher
 ```
@@ -40,37 +32,34 @@ pip install promptfletcher
 ```bash
 pip install git+https://github.com/Vikhram-S/PromptFletcher.git
 ```
-
 ---
 
-<<<<<<< HEAD
 ## **Quick Start**  
 ### **Import & Initialize**  
-=======
+
 ## **📌 Quick Start**  
-### **1️⃣ Import & Initialize**  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+### **1️⃣ Import & Initialize**
 ```python
 from promptfletcher import AutoPromptEngineer
 
 engineer = AutoPromptEngineer()
 ```
 
-<<<<<<< HEAD
+
 ### **Define Context & Prompt**  
-=======
+
 ### **2️⃣ Define Context & Prompt**  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+
 ```python
 context = "We are exploring ways to enhance prompt engineering for LLMs."
 initial_prompt = "How can I improve my AI-generated responses?"
 ```
 
-<<<<<<< HEAD
+
 ### **Optimize the Prompt**  
-=======
+
 ### **3️⃣ Optimize the Prompt**  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+
 ```python
 refined_prompt = engineer.refine_prompt(initial_prompt, context)
 print("Refined Prompt:", refined_prompt)
@@ -78,7 +67,6 @@ print("Refined Prompt:", refined_prompt)
 
 ---
 
-<<<<<<< HEAD
 ## **Features**  
 **Automated Prompt Refinement** – Uses NLP techniques to improve prompt clarity.  
 **LLM Response Evaluation** – Integrates with open-source models like GPT-Neo & BLOOM.  
@@ -91,7 +79,7 @@ print("Refined Prompt:", refined_prompt)
 ### **`AutoPromptEngineer` Class**
 #### `refine_prompt(prompt: str, context: str, iterations: int = 3) -> str`  
 **Refines a given prompt based on context and heuristic scoring.**  
-=======
+
 ## **⚡ Features**  
 ✅ **Automated Prompt Refinement** – Uses NLP techniques to improve prompt clarity.  
 ✅ **LLM Response Evaluation** – Integrates with open-source models like GPT-Neo & BLOOM.  
@@ -104,17 +92,17 @@ print("Refined Prompt:", refined_prompt)
 ### **`AutoPromptEngineer` Class**
 #### `refine_prompt(prompt: str, context: str, iterations: int = 3) -> str`  
 🔹 **Refines a given prompt based on context and heuristic scoring.**  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+
 ```python
 engineer.refine_prompt("How do I make my AI-generated text more accurate?", "LLM optimization")
 ```
 
 #### `evaluate_prompt(prompt: str, context: str) -> float`  
-<<<<<<< HEAD
+
 **Assigns a heuristic score to a prompt based on clarity and relevance.**  
-=======
+
 🔹 **Assigns a heuristic score to a prompt based on clarity and relevance.**  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+
 ```python
 score = engineer.evaluate_prompt("Tell me about AI safety?", "Machine Learning Ethics")
 print("Prompt Score:", score)
@@ -122,14 +110,11 @@ print("Prompt Score:", score)
 
 ---
 
-<<<<<<< HEAD
 ## **Dependencies**
 - `nltk>=3.6.0`
-=======
 ## **📦 Dependencies**
 - `transformers>=4.30.0`
 - `torch>=2.0.0`
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
 - `numpy>=1.21.0`
 - `regex>=2023.3.23`
 
@@ -140,20 +125,14 @@ pip install -r requirements.txt
 
 ---
 
-<<<<<<< HEAD
 ## **License**  
-=======
 ## **📜 License**  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
+
 **PromptFletcher** is licensed under the **MIT License** – free to use, modify, and distribute.  
 
 ---
 
-<<<<<<< HEAD
 ## **Contributing**  
-=======
-## **🤝 Contributing**  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
 We welcome contributions!  
 1. Fork the repository  
 2. Create a feature branch (`git checkout -b feature-new`)  
@@ -161,19 +140,12 @@ We welcome contributions!
 4. Open a **Pull Request**  
 
 ---
-
-<<<<<<< HEAD
 ## **Contact & Support**  
 - **GitHub Issues:** [Report Bugs](https://github.com/Vikhram-S/PromptFletcher/issues)  
 - **Email:** vikhrams@saveetha.ac.in  
 
 **If you find this useful, give us a star on GitHub!** 
-=======
 ## **📬 Contact & Support**  
 - **GitHub Issues:** [Report Bugs](https://github.com/Vikhram-S/PromptFletcher/issues)  
-- **Email:** vikhrams@saveetha.ac.in  
-
-⭐ **If you find this useful, give us a star on GitHub!** ⭐  
->>>>>>> 62fa1ec3e19b48d6569a46efcb8fd03c494cdeed
-
+- **Email:** vikhrams@saveetha.ac.in 
 ---
